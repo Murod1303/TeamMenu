@@ -1,0 +1,25 @@
+
+.dashboard__item {
+  border-radius: 10px 0px 0px 10px;
+}
+.dashboard__item--active::before {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -12px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../assets/images/Rectangle1.png");
+  transform: rotate(90deg);
+}
+.dashboard__item--active::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: -12px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../assets/images/Rectangle1.png");
+}

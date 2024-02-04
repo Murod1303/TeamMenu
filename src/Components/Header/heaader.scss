@@ -1,0 +1,9 @@
+.header__search::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 14px;
+  top: calc(50% - 10px);
+  background-image: url("../../assets/images/search.svg");
+}
