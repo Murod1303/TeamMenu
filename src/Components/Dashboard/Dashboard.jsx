@@ -6,18 +6,18 @@ import logo from "../../assets/images/Logo.svg";
 export const Dashboard = () => {
   return (
     <>
-      <div className="dashboard">
-        <div className="dashboard__wrapper flex flex-col items-center justify-between py-6 pl-3 bg-[#1F1D2B] w-[100px] h-screen rounded-2xl">
+      <div className="dashboard h-screen overflow-hidden">
+        <div className="dashboard__wrapper flex flex-col items-center justify-start py-6 pl-3 bg-[#1F1D2B]  h-screen rounded-2xl">
           <a
-            className="flex items-center justify-center py-[12px] pl-3 pr-6"
+            className="flex items-center justify-center pt-[24px] pb-[16px] pl-3 pr-6"
             href="#"
           >
             <img src={logo} alt="" width={56} height={56} />
           </a>
-          <ul className="dashboard__list  gap-[2px]">
+          <ul className="dashboard__list  gap-[2px] mb-[46px]">
             <li className="dashboard__item dashboard__item--active py-[12px] pl-3 pr-6 my-[10px] bg-[#252836] flex items-center justify-center  relative">
               <a
-                className="dashboard__link w-14 h-14 bg-[#EA7C69] rounded-lg p-4"
+                className="dashboard__link dashboard__link--active w-14 h-14 bg-[#EA7C69] rounded-lg p-4"
                 href="#"
               >
                 {/* <img src="" alt="" /> */}

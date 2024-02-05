@@ -5,8 +5,8 @@ import { Order } from "../../Components/Order/Order";
 
 export const Home = () => {
   return (
-    <section className="home__wrapper w-full flex items-start justify-start gap-[46px] mt-[13px]">
-      <div className="menu__content w-2/3">
+    <section className="home__wrapper w-full flex items-start justify-start gap-[46px]">
+      <div className="menu__content w-2/3 h-screen">
         <Header />
         <Menu />
       </div>

@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <>
       <header className="mb-6">
-        <div className="header__wrapper flex flex-col items-start justify-start gap-6 w-full">
+        <div className="header__wrapper flex flex-col items-start justify-start gap-6 w-full mt-[13px]">
           <div className="header__top flex items-center justify-between w-full">
             <div className="header__title-box text-[#fff]">
               <h2 className="header__title font-bold leading-10 text-[28px]  mb-1">

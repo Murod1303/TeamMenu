@@ -17,6 +17,6 @@ body {
   height: 100%;
   background-color: #252836;
 }
-.wrapper {
-  
+::-webkit-scrollbar {
+  display: none;
 }
